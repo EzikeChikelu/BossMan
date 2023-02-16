@@ -32,3 +32,47 @@ td{
 #head{
 	text-align: center;
 }
+
+#word{
+	padding: 13px 13px 13px 20px;
+	background: black;
+	color: white;
+	border: 3px solid white;
+	margin: 10px auto;
+	border-radius: 15px;
+
+}
+
+#fixed{
+	position: fixed;
+}
+
+.site-button:active{
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+footer{
+	background: black;
+	color: white;
+	display:block;
+	clear: both;
+}
+
+
+ul{
+	background-color: gray;
+	width: 360px;
+}
+
+li:nth-child(2n){
+	background-color: lightblue;
+}
+
+#word:first-letter{
+	font-size: 50px;
+	text-decoration: overline;
+}
